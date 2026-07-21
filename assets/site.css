@@ -314,6 +314,14 @@
   .foot-in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
   .foot-in>div:first-child{font-family:var(--font-mono)}
 
+  /* ---------- catalog search ---------- */
+  .cat-search{position:relative;margin-bottom:8px}
+  .cat-search input{width:100%;max-width:560px;border:1px solid var(--line-2);border-radius:12px;background:rgba(255,255,255,.03);color:var(--text);font-family:var(--font-body);font-size:15.5px;padding:14px 18px 14px 44px;transition:border-color .2s}
+  .cat-search input::placeholder{color:var(--muted-2)}
+  .cat-search input:focus{outline:none;border-color:var(--accent)}
+  .cat-search::before{content:"";position:absolute;left:16px;top:15px;width:18px;height:18px;background:no-repeat center/contain;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239694b6' stroke-width='2'><circle cx='11' cy='11' r='7'/><path d='M21 21l-4-4'/></svg>")}
+
   /* ---------- three levels ---------- */
   .levels{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
   @media(max-width:820px){.levels{grid-template-columns:1fr}}
