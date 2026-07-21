@@ -405,15 +405,25 @@
   }
 
 
+  .print-only{display:none}
   @media print{
-    .site::before,#field,.hero-glow,.hero::after,.nav,footer,.back-link,.pd-cta,.hero-cta,.cat-go,.pc-go{display:none!important}
+    @page{margin:14mm}
+    .site::before,#field,.hero-glow,.hero::after,.nav,footer,.back-link,.pd-cta,.hero-cta,.cat-go,.pc-go,.crumbs,.pd-related{display:none!important}
+    .print-only{display:block!important}
     html,body,.site{background:#fff!important}
+    .band{padding:0!important;border:0!important}
     *{color:#111!important;text-shadow:none!important;box-shadow:none!important;background-image:none!important}
-    .band{padding:14px 0!important;border-color:#ccc!important}
+    .page-hero{padding:0!important}
+    .pd-photo{max-width:280px!important;height:auto!important;border:1px solid #ccc!important}
+    .pd-photo img{height:auto!important}
     .table-wrap,.pcard,.cat,.about-side,.app,.contact{background:#fff!important;border:1px solid #999!important}
     table.specs-t th,table.specs-t td{border-color:#ccc!important}
     table.specs-t thead th{background:#eee!important;position:static!important}
     table.specs-t tbody tr:nth-child(even){background:#f5f5f5!important}
     table.specs-t td.code,table.specs-t caption,.pc-code,.p-tag,.eyebrow{color:#000!important}
     a{color:#000!important;text-decoration:none!important}
+    .print-head{display:flex!important;justify-content:space-between;align-items:baseline;border-bottom:2px solid #111;padding-bottom:8px;margin-bottom:16px;font-family:var(--font-body)}
+    .print-head b{font-weight:800;letter-spacing:.06em;font-size:15px}
+    .print-head span{font-size:11px;color:#555!important}
+    .print-foot{margin-top:22px;padding-top:8px;border-top:1px solid #999;font-size:11px;color:#333!important;display:flex;justify-content:space-between}
   }
