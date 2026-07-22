@@ -152,6 +152,9 @@
   /* ---------- section frame ---------- */
   section{position:relative}
   .band{padding:92px 0;position:relative}
+  /* чередующиеся зоны-фоны, чтобы страница не читалась как одинаковые слайды */
+  .band-alt{background:linear-gradient(180deg, rgba(21,23,40,.55), rgba(14,15,26,.3))}
+  .band-tint{background:linear-gradient(180deg, rgba(69,195,180,.05), rgba(69,195,180,.015))}
   /* тонкий «текучий» разделитель вместо жёсткой линии-разрыва */
   .band+.band::before{content:"";position:absolute;left:50%;top:0;transform:translateX(-50%);width:min(1100px,86%);height:1px;
     background:linear-gradient(90deg,transparent,var(--line-2),transparent);opacity:.6}
