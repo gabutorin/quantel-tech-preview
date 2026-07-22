@@ -16,9 +16,26 @@ var BASE="/quantel-tech-preview/";window.QT_INDEX=[{"s":"qt-tim-m","n":"Охла
   document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
   var lf=document.getElementById('lead-file');
   if(lf)lf.addEventListener('change',function(){ var fl=document.getElementById('file-label'); if(fl)fl.textContent=(lf.files&&lf.files.length)?lf.files[0].name:'Прикрепить ТЗ / спецификацию'; });
-  if(f)f.addEventListener('submit',function(e){ e.preventDefault(); if(!f.contact.value.trim()){f.contact.focus();return;}
-    /* TODO: подключить реальную отправку (Formspree / e-mail / Telegram) */
-    if(body)body.hidden=true; if(done)done.hidden=false; });
+  if(f)f.addEventListener('submit',function(e){ e.preventDefault();
+    var cEl=f.elements['contact']; if(!cEl.value.trim()){cEl.focus();return;}
+    var btn=f.querySelector('button[type=submit]'), note=(body?body.querySelector('.lead-note'):null);
+    if(btn){btn.disabled=true; if(!btn.getAttribute('data-t'))btn.setAttribute('data-t',btn.textContent); btn.textContent='Отправка…';}
+    var lt=document.getElementById('lead-title'), lc=document.getElementById('lead-ctx');
+    var fd=new FormData();
+    fd.append('access_key','bb16d240-e8c6-4d58-86ea-b881dd859d68');
+    fd.append('from_name','Quantel Tech — сайт');
+    fd.append('subject','Заявка с сайта: '+(lt?lt.textContent:'запрос'));
+    fd.append('Раздел', lc?lc.textContent:'');
+    fd.append('Имя', f.elements['name'].value||'—');
+    fd.append('Контакт', cEl.value);
+    fd.append('Сообщение', f.elements['message'].value||'—');
+    var lf3=document.getElementById('lead-file'); if(lf3&&lf3.files&&lf3.files.length) fd.append('Вложение','клиент приложил файл: '+lf3.files[0].name+' — запросить отдельно');
+    fetch('https://api.web3forms.com/submit',{method:'POST',body:fd})
+      .then(function(r){return r.json();})
+      .then(function(d){ if(d&&d.success){ if(body)body.hidden=true; if(done)done.hidden=false; } else { throw 0; } })
+      .catch(function(){ if(note){note.style.color='#e0674d'; note.textContent='Не удалось отправить. Позвоните +7 (996) 240‑40‑50 или напишите в WhatsApp.';}
+        if(btn){btn.disabled=false; btn.textContent=btn.getAttribute('data-t')||'Отправить запрос';} });
+  });
 
   /* бургер */
   var nl=document.getElementById('nav-links'), nb=document.getElementById('nav-burger');
