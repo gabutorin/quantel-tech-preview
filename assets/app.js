@@ -58,6 +58,20 @@ var BASE="/quantel-tech-preview/";window.QT_INDEX=[{"s":"qt-tim-m","n":"Охла
     });
   }
 
+  /* появление при прокрутке — «живой» сайт, а не статичный PDF */
+  if('IntersectionObserver' in window){
+    var rsel='.band-head,.cat,.pcard,.level,.app,.adv .item,.step,.about-side,.table-wrap,.client,.pd-photo,.pd-desc,.pd-chips,.contact,.feat-list';
+    var rio=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');rio.unobserve(en.target);}});},{threshold:0.1,rootMargin:'0px 0px -6% 0px'});
+    [].slice.call(document.querySelectorAll(rsel)).forEach(function(el){
+      var r=el.getBoundingClientRect();
+      if(r.top<(window.innerHeight||800)*0.95) return; /* уже видно — оставляем как есть */
+      el.classList.add('reveal');
+      var prev=0,s=el.previousElementSibling; while(s){ if(s.classList&&s.classList.contains('reveal'))prev++; s=s.previousElementSibling; }
+      el.style.transitionDelay=Math.min(prev,6)*50+'ms';
+      rio.observe(el);
+    });
+  }
+
   /* hero-canvas: «оптический гироскоп» — кольца + встречные световые импульсы (эффект Саньяка) */
   var cvs=document.getElementById('field');
   if(cvs){
