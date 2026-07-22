@@ -213,7 +213,14 @@
   .cat-grid .cat:first-child::after{opacity:.9}
   .cat-grid .cat:first-child{box-shadow:inset 0 1px 0 rgba(255,255,255,.05), 0 0 0 1px rgba(69,195,180,.06), 0 40px 80px -40px rgba(0,0,0,.7)}
   .cat-grid .cat:first-child::before{content:"";position:absolute;inset:0;z-index:0;background:radial-gradient(120% 120% at 88% 8%, var(--edge,var(--accent)), transparent 55%);opacity:.12;pointer-events:none}
-  .cat-grid .cat:first-child>*{position:relative;z-index:1}
+  /* слой контента и выезжающее фото при наведении */
+  .cat-inner{position:relative;z-index:2}
+  .cat-media{position:absolute;inset:0;z-index:1;border-radius:inherit;background-size:cover;background-position:center;
+    opacity:0;transform:translateX(30px) scale(1.07);transition:opacity .55s ease, transform .7s cubic-bezier(.2,.7,.2,1)}
+  .cat-media::after{content:"";position:absolute;inset:0;border-radius:inherit;
+    background:linear-gradient(115deg, rgba(10,11,20,.95) 26%, rgba(10,11,20,.62) 68%, rgba(10,11,20,.4))}
+  .cat.has-media:hover .cat-media{opacity:1;transform:none}
+  .cat.has-media:hover{border-color:var(--line-strong)}
   .cat-grid .cat:first-child h3{font-size:clamp(24px,2.4vw,32px);margin:18px 0 10px}
   .cat-grid .cat:first-child .sub{font-size:16px;max-width:42ch;line-height:1.6}
   .cat-grid .cat:nth-child(6){grid-column:span 2}
