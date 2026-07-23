@@ -13,16 +13,23 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-tim-v/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-tim-s/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/navigacia/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/bw-gi320/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/bw-sec380/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-nav-gi/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-nav-ins/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-nav-ahrs/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-nav-in/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/inercial/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/bw-lwhd/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/meitai-msa300/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-sip/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-mems/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-qa/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-mc/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/vog/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/liocrebif-fs60/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/liocrebif-fs50/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/liocrebif-f3g90/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/fg-30/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/fg-50/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/fg-60/</loc><priority>0.7</priority></url>
@@ -54,6 +61,10 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-la/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-las-parts/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/optika/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/quanhom-zoom/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/quanhom-cooled/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/seeshine-obs/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/seeshine-aim/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-opl-ir/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-opl-ep/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/displays/</loc><priority>0.8</priority></url>
@@ -62,10 +73,16 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-dis-md/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-dis-op/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/izmerenie/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/livox-mid360/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/livox-avia/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/livox-tele15/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-mes-lr/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-mes-ld/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-mes-uv/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/oes/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/savgood-eoir/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/savgood-tcm/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/vtptz-opu/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-ll/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-oes-sw/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/qt-oes-ad/</loc><priority>0.7</priority></url>
