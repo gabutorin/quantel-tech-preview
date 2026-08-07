@@ -7,6 +7,7 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/contact/</loc><priority>0.6</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/privacy/</loc><priority>0.2</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/teplovizory/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-tcm/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-stirling-cooler/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-tim-m/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-tim-z/</loc><priority>0.7</priority></url>
@@ -111,17 +112,20 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gnss-fa/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dvl/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/lazery/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-mes-lr/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-lp/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-la/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-las-parts/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/optika/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/optika/okulyary/</loc><priority>0.75</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-mwir-zoom/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-athermal/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-eyepiece/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-zoom/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-cooled/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-obs/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-eyepiece/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-aim/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dis-md/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dis-op/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/displays/</loc><priority>0.8</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-svga038/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-xga039/</loc><priority>0.7</priority></url>
@@ -135,12 +139,9 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-mled039/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-mled041/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-mled070/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dis-md/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dis-op/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-oled-obs/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-oled-arvr/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/izmerenie/</loc><priority>0.8</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-mes-lr/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-mes-uv/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-sonar-3d15/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/lidary/</loc><priority>0.8</priority></url>
@@ -167,7 +168,6 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-vls-h5/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/oes/</loc><priority>0.8</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-eoir/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-tcm/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-ll/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-oes-sw/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-oes-ad/</loc><priority>0.7</priority></url>
