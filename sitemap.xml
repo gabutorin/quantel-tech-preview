@@ -24,10 +24,7 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/navigacia/gyroscopes/vog/</loc><priority>0.75</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/navigacia/gyroscopes/klg/</loc><priority>0.75</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/navigacia/inclinometers/</loc><priority>0.75</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-65-4b1l1/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gnss-fa/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dvl/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-vg/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/navigacia/other-sensors/</loc><priority>0.75</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-ah500c/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-mins/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dmc5000/</loc><priority>0.7</priority></url>
@@ -69,6 +66,7 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-imu-m/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-s6/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-sip/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-sip/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gyro7200/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-fog-303/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-agilelight/</loc><priority>0.7</priority></url>
@@ -97,9 +95,13 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-jz14/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-jzt10/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-jzt06/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-fdvg525e/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dis341/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-lwhd/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-vg/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-fdvg525e/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-65-4b1l1/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gnss-fa/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dvl/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/akselerometry/</loc><priority>0.8</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/akselerometry/mems/</loc><priority>0.75</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/akselerometry/quartz/</loc><priority>0.75</priority></url>
