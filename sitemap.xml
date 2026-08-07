@@ -16,14 +16,13 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-tim-v/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-tim-s/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/navigacia/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/navigacia/bins/</loc><priority>0.75</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gi1100/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-sb-in/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-ins-40d/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-ins-s40d/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-fcmp-series/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-ins-40d/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-fins-88s/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-ins-75s/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-compass-cmplj/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-rtk-nav/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-303/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-40c-2/</loc><priority>0.7</priority></url>
@@ -32,17 +31,18 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gi200/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gi320/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gi420/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gi860/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-65-4b1l1/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gi1130n/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-ns/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gnss-fa/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-sb-min/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-sb-ty/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-sb-3100pro/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-sb-fimu90s/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-fcmp-series/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-compass-cmplj/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gi860/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-65-4b1l1/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-ns/</loc><priority>0.7</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-gnss-fa/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dvl/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/inercial/</loc><priority>0.8</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-sb-1100/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-fimu-40s/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-imu-313/</loc><priority>0.7</priority></url>
