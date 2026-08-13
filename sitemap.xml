@@ -98,7 +98,6 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dis341/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-lwhd/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-vg/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-fdvg525e/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-ah500c/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-mins/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dmc5000/</loc><priority>0.7</priority></url>
@@ -130,6 +129,7 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dis-md/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-dis-op/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/displays/</loc><priority>0.8</priority></url>
+  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-oled-obs/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-svga038/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-xga039/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-wvga041/</loc><priority>0.7</priority></url>
@@ -142,7 +142,6 @@
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-mled039/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-mled041/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ol-mled070/</loc><priority>0.7</priority></url>
-  <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-oled-obs/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-oled-arvr/</loc><priority>0.7</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/catalog/izmerenie/</loc><priority>0.8</priority></url>
   <url><loc>https://gabutorin.github.io/quantel-tech-preview/product/ds-mes-uv/</loc><priority>0.7</priority></url>
